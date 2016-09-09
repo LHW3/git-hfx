@@ -1,0 +1,13 @@
+	<div class="nav-container-outer">
+	<div class="nav-container">
+	<div class="nav-container-inner">
+        <ul id="nav">
+        	<li class="level0 first homelink"><a href="http://staging.hfxperformance.com/"><span>Home</span></a></li><li class="level0 nav-1 active level-top first"><a href="http://staging.hfxperformance.com/women-13.html?___SID=U" class="level-top"><span>Women</span></a></li><li class="level0 nav-2 level-top"><a href="http://staging.hfxperformance.com/men-11.html?___SID=U" class="level-top"><span>Men</span></a></li><li class="level0 nav-3 level-top last"><a href="http://staging.hfxperformance.com/about-us-8.html?___SID=U" class="level-top"><span>About Us</span></a></li>        </ul>
+	</div>
+    </div>
+    </div>
+	<div class="mobile-nav-container">
+                <div id="mobile-menu-button">Menu</div>
+        <ul id="mobile-menu">
+            <li class="level0 first homelink"><a href="http://staging.hfxperformance.com/"><span>Home</span></a></li>            <li class="level0 nav-4 active level-top first"><a href="http://staging.hfxperformance.com/women-13.html?___SID=U" class="level-top"><span>Women</span></a></li><li class="level0 nav-5 level-top"><a href="http://staging.hfxperformance.com/men-11.html?___SID=U" class="level-top"><span>Men</span></a></li><li class="level0 nav-6 level-top last"><a href="http://staging.hfxperformance.com/about-us-8.html?___SID=U" class="level-top"><span>About Us</span></a></li>        </ul>
+	</div>

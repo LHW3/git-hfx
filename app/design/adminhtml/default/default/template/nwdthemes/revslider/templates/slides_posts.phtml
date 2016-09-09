@@ -1,0 +1,51 @@
+<?php
+
+/**
+ * Nwdthemes Revolution Slider Extension
+ *
+ * @package     Revslider
+ * @author		Nwdthemes <mail@nwdthemes.com>
+ * @link		http://nwdthemes.com/
+ * @copyright   Copyright (c) 2014. Nwdthemes
+ * @license     http://themeforest.net/licenses/terms/regular
+ */
+
+?>
+<div class="wrap settings_wrap">
+	<div class="title_line">
+		<div id="icon-options-general" class="icon32"></div>
+		<div class="view_title"><?php echo $this->__("Edit Slides")?>: <?php echo $slider->getTitle()?></div>
+	</div>
+	<div class="vert_sap"></div>
+	<?php echo $this->__("The slides are products that taken from multiple sources.")?> &nbsp;
+	<?php if($showSortBy == true): ?>
+		<?php echo $this->__("Sort by")?>: <?php echo $selectSortBy?> &nbsp;<span class="hor_sap"></span>
+	<?php endif?>
+	<?php echo $linkNewPost?>
+	<span id="slides_top_loader" class="slides_posts_loader" style="display:none;"><?php echo $this->__("Updating Sorting...")?></span>
+	<div class="vert_sap"></div>
+	<div class="sliders_list_container">
+		<?php
+		$this->getChild('slides_list_posts')
+			->assign('showDelete', $showDelete)
+			->assign('showSortBy', $showSortBy)
+			->assign('arrSlides', $arrSlides);
+		echo $this->getChildHtml('slides_list_posts');
+		?>
+	</div>
+	<div class="vert_sap_medium"></div>
+	<div class="list_slides_bottom">
+		<?php echo $linkNewPost?>
+		<a class="button-primary revyellow" href='<?php echo $this->helper("adminhtml")->getUrl('adminhtml/nwdrevslider/sliders'); ?>' ><i class="revicon-cancel"></i><?php echo $this->__("Close")?></a>
+		<a href="<?php echo $linksSliderSettings?>" class="button-primary revgreen"><i class="revicon-cog"></i><?php echo $this->__("Slider Settings")?></a>
+	</div>
+</div>
+<script type="text/javascript">
+	var g_messageDeleteSlide = "<?php echo $this->__("Delete this product slide?")?>";
+	var g_messageChangeImage = "<?php echo $this->__("Select Slide Image")?>";
+	(function(jQuery) {
+	jQuery(document).ready(function() {
+		RevSliderAdmin.initSlidesListViewPosts("<?php echo $sliderID?>");
+	});
+	})($nwd_jQuery);
+</script>

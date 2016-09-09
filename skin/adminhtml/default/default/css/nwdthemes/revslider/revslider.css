@@ -1,0 +1,18 @@
+#anchor-content { background: #ddd; color: #444; font-family: "Open Sans",sans-serif; }
+.wrapper-popup #anchor-content { background: none; color: #333; font-family: Arial,sans-serif; }
+.disabled_control { cursor: default !important; }
+#form_slider_main td input.code { max-width: 400px; }
+.nav-bar li, .nav-bar dd {margin-bottom: 0;}
+.nav-bar { font-size: 12px; }
+p.super {margin-top: 0;}
+.header-right p, .header-right input, .footer, .footer p, .footer select {font-size: 0.95em;}
+.adminhtml-nwdrevslider-slide .ui-autocomplete {
+    background-image: none;
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+* html .adminhtml-nwdrevslider-slide .ui-autocomplete {
+    height: 350px;
+}
+.preview_slider_store_select { float:  left; margin: 7px 0 0 14px; }

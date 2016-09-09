@@ -1,0 +1,106 @@
+<?php
+
+/**
+ * Nwdthemes Revolution Slider Extension
+ *
+ * @package     Revslider
+ * @author		Nwdthemes <mail@nwdthemes.com>
+ * @link		http://nwdthemes.com/
+ * @copyright   Copyright (c) 2014. Nwdthemes
+ * @license     http://themeforest.net/licenses/terms/regular
+ */
+
+?>
+
+	<div class="wrap settings_wrap">
+
+		<div class="clear_both"></div>
+
+		<div class="title_line">
+			<div id="icon-options-general" class="icon32"></div>
+			<div class="view_title"><?php echo $this->__("Edit Slides")?>: <?php echo $slider->getTitle()?></div>
+
+			<a href="<?php echo GlobalsRevSlider::LINK_HELP_SLIDE_LIST?>" class="button-secondary float_right mtop_10 mleft_10" target="_blank"><?php echo $this->__("Help")?></a>
+
+		</div>
+
+		<div class="vert_sap"></div>
+		<?php if($numSlides >= 5){ ?>
+			<a class='button-primary revblue' id="button_new_slide_top" href='javascript:void(0)' ><i class="revicon-list-add"></i><?php echo $this->__("New Slide")?></a>
+
+			<a class='button-primary revblue' id="button_new_slide_transparent_top" href='javascript:void(0)' ><i class="revicon-list-add"></i><?php echo $this->__("New Transparent Slide")?></a>
+			<span class="loader_round new_trans_slide_loader" style="display:none"><?php echo $this->__("Adding Slide...")?></span>
+
+			<a class="button-primary revyellow" href='<?php echo $this->helper("adminhtml")->getUrl('adminhtml/nwdrevslider/sliders'); ?>' ><i class="revicon-cancel"></i><?php echo $this->__("Close")?></a>
+		<?php } ?>
+
+		<?php if ( ! Mage::app()->isSingleStoreMode()) : ?>
+			<?php echo $this->__('Select Store View: ') . $selectStoreView; ?>
+		<?php endif; ?>
+
+		<div class="vert_sap"></div>
+		<div class="sliders_list_container">
+			<?php
+			$this->getChild('slides_list')
+				->assign('slidesType', 'gallery')
+				->assign('numSliders', $numSliders)
+				->assign('slider', $slider)
+				->assign('arrSlides', $arrSlides);
+			echo $this->getChildHtml('slides_list');
+			?>
+		</div>
+		<div class="vert_sap_medium"></div>
+		<a class='button-primary revblue' id="button_new_slide" data-dialogtitle="<?php echo $this->__("Select image or multiple images to add slide or slides")?>" href='javascript:void(0)' ><i class="revicon-list-add"></i><?php echo $this->__("New Slide")?></a>
+		<a class='button-primary revblue' id="button_new_slide_transparent" href='javascript:void(0)' ><i class="revicon-list-add"></i><?php echo $this->__("New Transparent Slide")?></a>
+		<span class="loader_round new_trans_slide_loader" style="display:none"><?php echo $this->__("Adding Slide...")?></span>
+		<?php
+		if($useStaticLayers == 'on'){
+			?>
+            <a class='button-primary revgray' href='<?php echo $this->helper("adminhtml")->getUrl('adminhtml/nwdrevslider/slide/id/static_' . $slider->getID()); ?>' style="width:190px; "><i style="color:#fff" class="eg-icon-dribbble"></i><?php  echo $this->__("Edit Static / Global Layers")?></a>
+			<?php
+		}
+		?>
+		<a class="button-primary revyellow" href='<?php echo $this->helper("adminhtml")->getUrl('adminhtml/nwdrevslider/sliders'); ?>' ><i class="revicon-cancel"></i><?php echo $this->__("Close")?></a>
+		<a href="<?php echo $linksSliderSettings?>" class="button-primary revgreen"><i class="revicon-cog"></i><?php echo $this->__("Slider Settings")?></a>
+
+
+	</div>
+
+	<div id="dialog_copy_move" data-textclose="<?php echo $this->__("Close")?>" data-textupdate="<?php echo $this->__("Do It!")?>" title="<?php echo $this->__("Copy / move slide")?>" style="display:none">
+
+		<br>
+
+		<?php echo $this->__("Choose Slider")?> :
+		<?php echo $selectSliders?>
+
+		<br><br>
+
+		<?php echo $this->__("Choose Operation")?> :
+
+		<input type="radio" id="radio_copy" value="copy" name="copy_move_operation" checked />
+		<label for="radio_copy" style="cursor:pointer;"><?php echo $this->__("Copy")?></label>
+		&nbsp; &nbsp;
+		<input type="radio" id="radio_move" value="move" name="copy_move_operation" />
+		<label for="radio_move" style="cursor:pointer;"><?php echo $this->__("Move")?></label>
+
+	</div>
+
+	<?php
+	$this->getChild('dialog_preview_slide')->assign('iframeStyle', $iframeStyle);
+	echo $this->getChildHtml('dialog_preview_slide');
+	?>
+
+	<script type="text/javascript">
+
+		var g_patternViewSlide = '<?php echo $patternViewSlide?>';
+		var g_messageChangeImage = "<?php echo $this->__("Select Slide Image")?>";
+		var g_storeViewLink = '<?php echo $this->helper("adminhtml")->getUrl('adminhtml/nwdrevslider/slides/store_id/[store_id]/id/' . $sliderID); ?>';
+
+		(function(jQuery) {
+		jQuery(document).ready(function() {
+			var g_messageDeleteSlide = "<?php echo $this->__("Delete this slide?")?>";
+			RevSliderAdmin.initSlidesListView("<?php echo $sliderID?>");
+
+		});
+		})($nwd_jQuery);
+	</script>

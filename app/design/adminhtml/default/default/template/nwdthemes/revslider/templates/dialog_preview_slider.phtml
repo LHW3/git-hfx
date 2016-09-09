@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * Nwdthemes Revolution Slider Extension
+ *
+ * @package     Revslider
+ * @author		Nwdthemes <mail@nwdthemes.com>
+ * @link		http://nwdthemes.com/
+ * @copyright   Copyright (c) 2014. Nwdthemes
+ * @license     http://themeforest.net/licenses/terms/regular
+ */
+
+?>
+	<div id="dialog_preview_sliders" class="dialog_preview_sliders" title="Preview Slider" style="display:none;">
+		<iframe id="frame_preview_slider" name="frame_preview_slider" style="width: 100%;"></iframe>
+	</div>
+
+	<div id="preview_slider_store_select_tempalte" style="display: none;">
+		<?php if ( ! Mage::app()->isSingleStoreMode() ) : ?>
+			<div class="preview_slider_store_select">
+				<?php echo $this->__('Select Store View: ') . Mage::helper('nwdrevslider')->getStoreSelectHtml('preview_store_id'); ?>
+			</div>
+		<?php endif; ?>
+	</div>
+
+	<form id="form_preview" name="form_preview" action="" target="frame_preview_slider" method="post">
+		<input type="hidden" name="client_action" value="preview_slider">
+		<input type="hidden" id="preview_sliderid" name="sliderid" value="">
+		<input type="hidden" id="preview_slider_form_key" name="form_key" value="">
+		<input type="hidden" id="preview_slider_markup" name="only_markup" value="">
+		<input type="hidden" id="preview_slider_store_id" name="store_id" value="0">
+	</form>

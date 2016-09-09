@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+
+
+  <default>
+        <!-- Mage_Customer -->
+        <reference name="top.links">
+            <action method="addLink" translate="label title" ><label>Search</label><title>SEARCH</title><prepare/><urlParams/><position>10</position></action>
+        </reference>
+    </default>
+
+
+</layout>

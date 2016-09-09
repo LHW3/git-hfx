@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+     <modules>
+        <NeptuneWeb_ExportOrder>
+            <active>true</active>
+            <codePool>local</codePool>
+        </NeptuneWeb_ExportOrder>
+     </modules>
+</config>

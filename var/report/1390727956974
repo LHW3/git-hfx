@@ -1,0 +1,26 @@
+a:5:{i:0;s:1359:"Error in file: "/home/hfxperformance/public_html/app/code/core/Mage/CatalogRule/sql/catalogrule_setup/install-1.6.0.0.php" - SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'catalogrule' already exists, query was: CREATE TABLE `catalogrule` (
+  `rule_id` int UNSIGNED NOT NULL auto_increment COMMENT 'Rule Id' ,
+  `name` varchar(255) NULL COMMENT 'Name' ,
+  `description` text NULL COMMENT 'Description' ,
+  `from_date` date NULL COMMENT 'From Date' ,
+  `to_date` date NULL COMMENT 'To Date' ,
+  `customer_group_ids` text NULL COMMENT 'Customer Group Ids' ,
+  `is_active` smallint NOT NULL default '0' COMMENT 'Is Active' ,
+  `conditions_serialized` mediumtext NULL COMMENT 'Conditions Serialized' ,
+  `actions_serialized` mediumtext NULL COMMENT 'Actions Serialized' ,
+  `stop_rules_processing` smallint NOT NULL default '1' COMMENT 'Stop Rules Processing' ,
+  `sort_order` int UNSIGNED NOT NULL default '0' COMMENT 'Sort Order' ,
+  `simple_action` varchar(32) NULL COMMENT 'Simple Action' ,
+  `discount_amount` decimal(12,4) NOT NULL default '0' COMMENT 'Discount Amount' ,
+  `website_ids` text NULL COMMENT 'Website Ids' ,
+  PRIMARY KEY (`rule_id`),
+  INDEX `IDX_CATALOGRULE_IS_ACTIVE_SORT_ORDER_TO_DATE_FROM_DATE` (`is_active`, `sort_order`, `to_date`, `from_date`)
+) COMMENT='CatalogRule' ENGINE=INNODB charset=utf8 COLLATE=utf8_general_ci";i:1;s:1016:"#0 /home/hfxperformance/public_html/app/code/core/Mage/Core/Model/Resource/Setup.php(644): Mage::exception('Mage_Core', 'Error in file: ...')
+#1 /home/hfxperformance/public_html/app/code/core/Mage/Core/Model/Resource/Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.6.0.3')
+#2 /home/hfxperformance/public_html/app/code/core/Mage/Core/Model/Resource/Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.6.0.3')
+#3 /home/hfxperformance/public_html/app/code/core/Mage/Core/Model/Resource/Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#4 /home/hfxperformance/public_html/app/code/core/Mage/Core/Model/App.php(428): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#5 /home/hfxperformance/public_html/app/code/core/Mage/Core/Model/App.php(354): Mage_Core_Model_App->_initModules()
+#6 /home/hfxperformance/public_html/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#7 /home/hfxperformance/public_html/index.php(83): Mage::run('', 'store')
+#8 {main}";s:3:"url";s:1:"/";s:11:"script_name";s:10:"/index.php";s:4:"skin";s:7:"default";}

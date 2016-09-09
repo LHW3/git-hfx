@@ -1,0 +1,9 @@
+<?php $_product = $this->getProduct(); ?>
+<?php $_wishlistSubmitUrl = $this->helper('wishlist')->getAddUrl($_product); ?>
+
+<ul class="add-to-links">
+
+<?php if ($this->canEmailToFriend()): ?>
+    <li class="email-friend"><span class="separator">|</span> <a href="<?php echo $this->helper('catalog/product')->getEmailToFriendUrl($_product) ?>"><?php echo $this->__('Email to a Friend') ?></a></li>
+<?php endif; ?>
+</ul>

@@ -1,0 +1,185 @@
+<?php
+
+/**
+ * Nwdthemes Revolution Slider Extension
+ *
+ * @package     Revslider
+ * @author		Nwdthemes <mail@nwdthemes.com>
+ * @link		http://nwdthemes.com/
+ * @copyright   Copyright (c) 2014. Nwdthemes
+ * @license     http://themeforest.net/licenses/terms/regular
+ */
+
+?>
+	<div class='wrap'>
+		<div class="clear_both"></div>
+		<div class="title_line" style="margin-bottom:10px">
+			<div id="icon-options-general" class="icon32"></div>
+			<a href="<?php echo GlobalsRevSlider::LINK_HELP_SLIDERS?>" class="button-secondary float_right mtop_10 mleft_10" target="_blank"><?php echo Mage::helper('nwdrevslider')->__("Help")?></a>
+
+			<a id="button_general_settings" class="button-secondary float_right mtop_10"><?php echo Mage::helper('nwdrevslider')->__("Global Settings")?></a>
+		</div>
+
+		<div class="clear_both"></div>
+
+		<div class="title_line nobgnopd">
+			<div class="view_title">
+				<?php echo Mage::helper('nwdrevslider')->__("Revolution Sliders")?>
+			</div>
+		</div>
+
+		<?php
+		$no_sliders = false;
+		if(empty($arrSliders)){
+			echo Mage::helper('nwdrevslider')->__("No Sliders Found");
+			$no_sliders = true;
+			?>
+			<br><?php
+		}
+
+		$this->getChild('sliders_list')
+			->setData('arrSliders', $arrSliders)
+			->setData('no_sliders', $no_sliders)
+			->setData('outputTemplates', false);
+
+		echo $this->getChildHtml('sliders_list');
+
+		?>
+
+
+		<!--
+		THE SLIDER TEMPLATES
+		-->
+		<div style="width:100%;height:17px"></div>
+		<div class="title_line nobgnopd"><div class="view_title"><?php echo Mage::helper('nwdrevslider')->__("Revolution Slider Templates")?></div></div>
+		<?php
+		$no_sliders = false;
+		if(empty($arrSlidersTemplates)){
+			echo Mage::helper('nwdrevslider')->__("No Template Sliders Found");
+			$no_sliders = true;
+			?><br><?php
+		}
+
+		$this->getChild('sliders_list_template')
+			->setData('arrSlidersTemplates', $arrSlidersTemplates)
+			->setData('no_sliders', $no_sliders)
+			->setData('outputTemplates', true);
+
+		echo $this->getChildHtml('sliders_list_template');
+		?>
+
+		<div style="width:100%;height:50px"></div>
+
+		<!--
+		THE INFO ABOUT EMBEDING OF THE SLIDER
+		-->
+		<div class="title_line nobgnopd"><div class="view_title"><?php echo Mage::helper('nwdrevslider')->__("How To Use the Slider")?></div></div>
+
+		<div style="border-top:1px solid #e5e5e5; padding:15px 15px 15px 80px; position:relative;overflow:hidden;background:#fff;">
+			<div class="revyellow" style="left:0px;top:0px;position:absolute;height:100%;padding:20px 10px;"><i style="color:#fff;font-size:25px" class="revicon-arrows-ccw"></i></div>
+			<p style="margin:5px 0px">
+				<?php echo Mage::helper('nwdrevslider')->__("From the")?>
+				<b><?php echo Mage::helper('nwdrevslider')->__("CMS block or page editor")?></b>
+				<?php echo Mage::helper('nwdrevslider')->__("insert the shortcode from the sliders table")?>
+				<br/><br/>
+				<?php echo Mage::helper('nwdrevslider')->__("To insert Revolution Slider <b>Widget</b> in CMS editor click Insert Widget icon or button. Select <b>NWDthemes Revolution Slider</b> widget. In <b>Widget Options</b> select slider you want to insert and click <b>Insert Widget</b> button."); ?>
+				<br/><br/>
+				<?php echo Mage::helper('nwdrevslider')->__("To create Revolution Slider <b>Widget Instance</b> go to "); ?>
+				<a href="<?php echo Mage::helper("adminhtml")->getUrl('adminhtml/widget_instance'); ?>"><b><?php echo Mage::helper('nwdrevslider')->__("CMS > Widget"); ?></b></a>
+				<?php echo Mage::helper('nwdrevslider')->__(" section page and push <b>Add New Widget Instance</b> button. Select <b>NWDthemes Revolution Slider</b> widget type, choose design package/theme and click <b>Continue</b>. Fill <b>Frontend Properties</b> form giving widget instance name, assign store views and sort order. Click <b>Add Layout Update</b> button and select pages and block you want to display widget on. Switch to <b>Widget Options</b> tab and select slider for this widget instance. Click <b>Save</b> to update widget options."); ?>
+				<br/><br/>
+				<?php echo Mage::helper('nwdrevslider')->__("From the")?>
+				<b><?php echo Mage::helper('nwdrevslider')->__("XML layout")?></b>
+				<?php echo Mage::helper('nwdrevslider')->__("use")?>:<br/>
+				<code>&lt;block type="nwdrevslider/revslider" name="revslider"&gt;&lt;action method="setAlias"&gt;&lt;alias&gt;alias&lt;/alias&gt;&lt;/action&gt;&lt;/block&gt;</code><br/>
+				<?php echo Mage::helper('nwdrevslider')->__("example")?>:<br/>
+				<code>&lt;block type="nwdrevslider/revslider" name="revslider"&gt;&lt;action method="setAlias"&gt;&lt;alias&gt;<?echo $exampleID; ?>&lt;/alias&gt;&lt;/action&gt;&lt;/block&gt;</code>
+				<br/><br/>
+				<?php echo Mage::helper('nwdrevslider')->__("From the")?>
+				<b><?php echo Mage::helper('nwdrevslider')->__("code")?></b>
+				<?php echo Mage::helper('nwdrevslider')->__("use")?>:<br/>
+				<code>$this->getLayout()->createBlock('nwdrevslider/revslider')->setAlias('alias')->toHtml();</code><br/>
+				<?php echo Mage::helper('nwdrevslider')->__("example")?>:<br/>
+				<code>$this->getLayout()->createBlock('nwdrevslider/revslider')->setAlias('<?echo $exampleID; ?>')->toHtml();</code>
+			</p>
+		</div>
+
+		<div style="width:100%;height:50px"></div>
+		<!--
+		THE CURRENT AND NEXT VERSION
+		-->
+		<div class="title_line nobgnopd"><div class="view_title"><?php echo Mage::helper('nwdrevslider')->__("Version Information")?></div></div>
+
+		<div style="border-top:1px solid #e5e5e5; padding:15px 15px 15px 80px; position:relative;overflow:hidden;background:#fff;">
+			<div class="revgray" style="left:0px;top:0px;position:absolute;height:100%;padding:27px 10px;"><i style="color:#fff;font-size:25px" class="revicon-info-circled"></i></div>
+			<p style="margin-top:5px; margin-bottom:5px;">
+				<?php echo Mage::helper('nwdrevslider')->__("Installed Version")?>: <span  class="slidercurrentversion"><?php echo Mage::helper('nwdrevslider')->getVersion(); ?></span><br>
+			</p>
+		</div>
+
+		<!-- THE UPDATE HISTORY OF SLIDER REVOLUTION -->
+		<div style="width:100%;height:50px"></div>
+
+		<div class="title_line nobgnopd">
+			<div class="view_title"><span style="margin-right:10px"><?php echo Mage::helper('nwdrevslider')->__("Update History") ?></span></div>
+		</div>
+
+		<div style="border-top:1px solid #e5e5e5;  height:500px;padding:25px 15px 15px 80px; position:relative;overflow:hidden;background:#fff">
+			<div class="revpurple" style="left:0px;top:0px;position:absolute;height:100%;padding:27px 10px;"><i style="color:#fff;font-size:27px" class="eg-icon-back-in-time"></i></div>
+			<div style="height:485px;overflow:scroll;width:100%;"><?php echo $this->getChildHtml('release_log'); ?></div>
+		</div>
+	</div>
+
+	<!-- Import slider dialog -->
+	<div id="dialog_import_slider" title="<?php echo Mage::helper('nwdrevslider')->__("Import Slider")?>" class="dialog_import_slider" style="display:none">
+		<form action="<?php echo Mage::helper("adminhtml")->getUrl('adminhtml/nwdrevslider/ajax'); ?>" enctype="multipart/form-data" method="post">
+			<input type="hidden" name="client_action" value="import_slider_slidersview" />
+			<input type="hidden" name="form_key" value="<?php echo Mage::getSingleton('core/session')->getFormKey(); ?>" />
+		    <br>
+		    <?php echo Mage::helper('nwdrevslider')->__("Choose the import file")?>:
+		    <br>
+			<input type="file" size="60" name="import_file" class="input_import_slider">
+			<br><br>
+			<span style="font-weight: 700;"><?php echo Mage::helper('nwdrevslider')->__("Note: custom styles will be updated if they exist!")?></span><br><br>
+			<table>
+				<tr>
+					<td><?php echo Mage::helper('nwdrevslider')->__("Custom Animations:")?></td>
+					<td><input type="radio" name="update_animations" value="true" checked="checked"> <?php echo Mage::helper('nwdrevslider')->__("overwrite")?></td>
+					<td><input type="radio" name="update_animations" value="false"> <?php echo Mage::helper('nwdrevslider')->__("append")?></td>
+				</tr>
+				<tr>
+					<td><?php echo Mage::helper('nwdrevslider')->__("Static Styles:")?></td>
+					<td><input type="radio" name="update_static_captions" value="true" checked="checked"> <?php echo Mage::helper('nwdrevslider')->__("overwrite")?></td>
+					<td><input type="radio" name="update_static_captions" value="false"> <?php echo Mage::helper('nwdrevslider')->__("append")?></td>
+				</tr>
+			</table>
+			<br><br>
+			<input type="submit" class='button-primary' value="<?php echo Mage::helper('nwdrevslider')->__("Import Slider")?>">
+		</form>
+
+	</div>
+
+	<?php echo $this->getChildHtml('dialog_preview_slider'); ?>
+
+	<script type="text/javascript">
+		(function(jQuery) {
+
+		jQuery(document).ready(function(){
+
+			RevSliderAdmin.initSlidersListView();
+			jQuery('#benefitsbutton').hover(function() {
+				jQuery('#benefitscontent').slideDown(200);
+			}, function() {
+				jQuery('#benefitscontent').slideUp(200);
+			})
+
+			jQuery('#tp-validation-box').click(function() {
+				jQuery(this).css({cursor:"default"});
+				if (jQuery('#rs-validation-wrapper').css('display')=="none") {
+					jQuery('#tp-before-validation').hide();
+					jQuery('#rs-validation-wrapper').slideDown(200);
+				}
+			})
+		});
+		})($nwd_jQuery);
+	</script>

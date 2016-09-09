@@ -1,0 +1,58 @@
+<?php
+
+/**
+ * Nwdthemes Revolution Slider Extension
+ *
+ * @package     Revslider
+ * @author		Nwdthemes <mail@nwdthemes.com>
+ * @link		http://nwdthemes.com/
+ * @copyright   Copyright (c) 2014. Nwdthemes
+ * @license     http://themeforest.net/licenses/terms/regular
+ */
+
+	$wrapperClass = "";
+	if(GlobalsRevSlider::$isNewVersion == false)
+		 $wrapperClass = " oldwp";
+?>
+<script type="text/javascript">
+	var revMageImageUploadUrl = '<?php echo Mage::helper("adminhtml")->getUrl('adminhtml/images'); ?>';
+	var g_urlAjaxShowImage = '<?php echo Mage::getUrl('nwdrevslider/thumb/index/w/[width]/h/[height]/i/[image]'); ?>';
+	var g_urlAjaxActions = '<?php echo Mage::helper("adminhtml")->getUrl('adminhtml/nwdrevslider/ajax'); ?>?isAjax=true';
+	var g_settingsObj = {};
+	<?php if ($permissionErrors = $this->checkFolderPermissionsErrors() ): ?>
+		(function(jQuery) {
+				jQuery(document).ready(function() {
+						UniteAdminRev.showErrorMessage(<?php echo json_encode($permissionErrors); ?>);
+				});
+		})($nwd_jQuery);
+	<?php endif; ?>
+</script>
+<div class="wp-core-ui" style="position: relative;">
+	<div id="div_debug"></div>
+
+	<div class='unite_error_message' id="error_message" style="display:none;"></div>
+
+	<div class='unite_success_message' id="success_message" style="display:none;"></div>
+
+	<div id="viewWrapper" class="view_wrapper<?php echo $wrapperClass?>">
+		<?php echo $this->getChildHtml('view'); ?>
+	</div>
+
+	<div id="divColorPicker" style="display:none;"></div>
+
+	<?php echo $this->getChildHtml('general_settings_dialog'); ?>
+
+	<div class="tp-plugin-version">
+		<span style="margin-right:15px">&copy; All rights reserved, <a href="http://nwdthemes.com/" target="_blank">NWDthemes</a>  ver. <?php echo Mage::helper('nwdrevslider')->getVersion(); ?></span>
+		<br/><br/>
+	</div>
+
+	<?php if(GlobalsRevSlider::SHOW_DEBUG == true): ?>
+
+		Debug Functions (for developer use only):
+		<br><br>
+
+		<a id="button_update_text" class="button-primary revpurple" href="javascript:void(0)">Update Text</a>
+
+	<?php endif?>
+</div>

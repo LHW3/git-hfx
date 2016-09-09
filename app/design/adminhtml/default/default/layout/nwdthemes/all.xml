@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<layout version="0.1.1">
+	<default>
+		<reference name="head">
+			<action method="addJs"><file>nwdthemes/widget_heading.js</file></action>
+		</reference>
+	</default>
+
+	<adminhtml_catalog_category_edit>
+		<reference name="head">
+			<action method="addJs"><file>nwdthemes/category_attribute_dependency.js</file></action>
+		</reference>
+	</adminhtml_catalog_category_edit>
+
+</layout>

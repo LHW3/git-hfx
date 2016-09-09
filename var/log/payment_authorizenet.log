@@ -1,0 +1,2280 @@
+2016-08-04T09:06:44+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000004
+            [x_amount] => 3205
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => shemeer
+            [x_last_name] => k
+            [x_company] => hub
+            [x_address] => sdfdsf
+            [x_city] => dsfsd
+            [x_state] => Alabama
+            [x_zip] => 4353465
+            [x_country] => US
+            [x_phone] => 3453654
+            [x_fax] => 
+            [x_cust_id] => 7
+            [x_customer_ip] => 122.174.205.231
+            [x_customer_tax_id] => 
+            [x_email] => shameer@hubspire.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => shemeer
+            [x_ship_to_last_name] => k
+            [x_ship_to_company] => hub
+            [x_ship_to_address] => sdfdsf
+            [x_ship_to_city] => dsfsd
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 4353465
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 5
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000004
+            [description] => 
+            [amount] => 3205.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 7
+            [md5_hash] => CF1007ADFEF35F4F32A7B6F289638E41
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 11105
+)
+
+2016-08-04T10:11:58+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000007
+            [x_amount] => 3205
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => shemeer
+            [x_last_name] => k
+            [x_company] => hub
+            [x_address] => sdfdsf
+            [x_city] => dsfsd
+            [x_state] => Alabama
+            [x_zip] => 4353465
+            [x_country] => US
+            [x_phone] => 3453654
+            [x_fax] => 
+            [x_cust_id] => 7
+            [x_customer_ip] => 122.174.205.231
+            [x_customer_tax_id] => 
+            [x_email] => shameer@hubspire.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => shemeer
+            [x_ship_to_last_name] => k
+            [x_ship_to_company] => hub
+            [x_ship_to_address] => sdfdsf
+            [x_ship_to_city] => dsfsd
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 4353465
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 5
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000007
+            [description] => 
+            [amount] => 3205.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 7
+            [md5_hash] => CF1007ADFEF35F4F32A7B6F289638E41
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 19362
+)
+
+2016-08-04T10:21:58+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000008
+            [x_amount] => 3205
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => shemeer
+            [x_last_name] => k
+            [x_company] => hub
+            [x_address] => sdfdsf
+            [x_city] => dsfsd
+            [x_state] => Alabama
+            [x_zip] => 4353465
+            [x_country] => US
+            [x_phone] => 3453654
+            [x_fax] => 
+            [x_cust_id] => 7
+            [x_customer_ip] => 122.174.205.231
+            [x_customer_tax_id] => 
+            [x_email] => shameer@hubspire.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => shemeer
+            [x_ship_to_last_name] => k
+            [x_ship_to_company] => hub
+            [x_ship_to_address] => sdfdsf
+            [x_ship_to_city] => dsfsd
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 4353465
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 5
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000008
+            [description] => 
+            [amount] => 3205.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 7
+            [md5_hash] => CF1007ADFEF35F4F32A7B6F289638E41
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 20866
+)
+
+2016-08-05T05:06:10+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000009
+            [x_amount] => 3205
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => shemeer
+            [x_last_name] => k
+            [x_company] => hub
+            [x_address] => sdfdsf
+            [x_city] => dsfsd
+            [x_state] => Alabama
+            [x_zip] => 4353465
+            [x_country] => US
+            [x_phone] => 3453654
+            [x_fax] => 
+            [x_cust_id] => 7
+            [x_customer_ip] => 122.174.220.71
+            [x_customer_tax_id] => 
+            [x_email] => shameer@hubspire.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => shemeer
+            [x_ship_to_last_name] => k
+            [x_ship_to_company] => hub
+            [x_ship_to_address] => sdfdsf
+            [x_ship_to_city] => dsfsd
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 4353465
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 5
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000009
+            [description] => 
+            [amount] => 3205.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 7
+            [md5_hash] => CF1007ADFEF35F4F32A7B6F289638E41
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 30551
+)
+
+2016-08-24T13:54:18+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000010
+            [x_amount] => 100
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Lisa
+            [x_last_name] => Valdes
+            [x_company] => 
+            [x_address] => 501 East Union Avenue
+            [x_city] => Bound Brook
+            [x_state] => New Jersey
+            [x_zip] => 08805
+            [x_country] => US
+            [x_phone] => 9084322388
+            [x_fax] => 9084322388
+            [x_cust_id] => 
+            [x_customer_ip] => 65.202.180.126
+            [x_customer_tax_id] => 
+            [x_email] => lisa@thelevygroupinc.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Lisa
+            [x_ship_to_last_name] => Valdes
+            [x_ship_to_company] => 
+            [x_ship_to_address] => 501 East Union Avenue
+            [x_ship_to_city] => Bound Brook
+            [x_ship_to_state] => New Jersey
+            [x_ship_to_zip] => 08805
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000010
+            [description] => 
+            [amount] => 100.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 
+            [md5_hash] => 8FAC8E8776558E8AB8382751C06EDD9E
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 16395
+)
+
+2016-08-25T13:34:44+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000011
+            [x_amount] => 100
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Lisa
+            [x_last_name] => Valdes
+            [x_company] => 
+            [x_address] => 501 East Union Avenue
+            [x_city] => Bound Brook
+            [x_state] => New Jersey
+            [x_zip] => 08805
+            [x_country] => US
+            [x_phone] => 9084322388
+            [x_fax] => 9084322388
+            [x_cust_id] => 
+            [x_customer_ip] => 65.202.180.126
+            [x_customer_tax_id] => 
+            [x_email] => lisavaldes89@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Lisa
+            [x_ship_to_last_name] => Valdes
+            [x_ship_to_company] => 
+            [x_ship_to_address] => 501 East Union Avenue
+            [x_ship_to_city] => Bound Brook
+            [x_ship_to_state] => New Jersey
+            [x_ship_to_zip] => 08805
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000011
+            [description] => 
+            [amount] => 100.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 
+            [md5_hash] => 8FAC8E8776558E8AB8382751C06EDD9E
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 16569
+)
+
+2016-08-29T13:25:51+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000012
+            [x_amount] => 100
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Lisa
+            [x_last_name] => Valdes
+            [x_company] => 
+            [x_address] => 501 East Union Avenue
+            [x_city] => Bound Brook
+            [x_state] => New Jersey
+            [x_zip] => 08805
+            [x_country] => US
+            [x_phone] => 9084322388
+            [x_fax] => 9084322388
+            [x_cust_id] => 
+            [x_customer_ip] => 65.202.180.126
+            [x_customer_tax_id] => 
+            [x_email] => lisavaldes89@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Lisa
+            [x_ship_to_last_name] => Valdes
+            [x_ship_to_company] => 
+            [x_ship_to_address] => 501 East Union Avenue
+            [x_ship_to_city] => Bound Brook
+            [x_ship_to_state] => New Jersey
+            [x_ship_to_zip] => 08805
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000012
+            [description] => 
+            [amount] => 100.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 
+            [md5_hash] => 8FAC8E8776558E8AB8382751C06EDD9E
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 37361
+)
+
+2016-08-29T13:52:25+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000013
+            [x_amount] => 100
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Tony
+            [x_last_name] => Hubspire
+            [x_company] => 
+            [x_address] => 3rd Street
+            [x_city] => Denver
+            [x_state] => Colorado
+            [x_zip] => 80217
+            [x_country] => US
+            [x_phone] => 9517538462
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 122.174.220.71
+            [x_customer_tax_id] => 
+            [x_email] => tony+test@hubspire.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Tony
+            [x_ship_to_last_name] => Hubspire
+            [x_ship_to_company] => 
+            [x_ship_to_address] => 3rd Street
+            [x_ship_to_city] => Denver
+            [x_ship_to_state] => Colorado
+            [x_ship_to_zip] => 80217
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000013
+            [description] => 
+            [amount] => 100.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 
+            [md5_hash] => 8FAC8E8776558E8AB8382751C06EDD9E
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX4242
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 48840
+)
+
+2016-08-29T13:57:40+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000014
+            [x_amount] => 200
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Tony
+            [x_last_name] => Hubspire
+            [x_company] => 
+            [x_address] => 3rd Street
+            [x_city] => Denver
+            [x_state] => Colorado
+            [x_zip] => 80217
+            [x_country] => US
+            [x_phone] => 9517538462
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 122.174.220.71
+            [x_customer_tax_id] => 
+            [x_email] => tony+test@hubspire.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Tony
+            [x_ship_to_last_name] => Hubspire
+            [x_ship_to_company] => 
+            [x_ship_to_address] => 3rd Street
+            [x_ship_to_city] => Denver
+            [x_ship_to_state] => Colorado
+            [x_ship_to_zip] => 80217
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000014
+            [description] => 
+            [amount] => 200.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 
+            [md5_hash] => E4FFAC200CD3EFC11293EAA21FF3EFFC
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX4242
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 3037
+)
+
+2016-08-29T14:04:08+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000015
+            [x_amount] => 200
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Tony
+            [x_last_name] => Hubspire
+            [x_company] => 
+            [x_address] => 3rd Street
+            [x_city] => Denver
+            [x_state] => Colorado
+            [x_zip] => 80217
+            [x_country] => US
+            [x_phone] => 9517538462
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 122.174.220.71
+            [x_customer_tax_id] => 
+            [x_email] => tony+test@hubspire.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Tony
+            [x_ship_to_last_name] => Hubspire
+            [x_ship_to_company] => 
+            [x_ship_to_address] => 3rd Street
+            [x_ship_to_city] => Denver
+            [x_ship_to_state] => Colorado
+            [x_ship_to_zip] => 80217
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000015
+            [description] => 
+            [amount] => 200.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 
+            [md5_hash] => E4FFAC200CD3EFC11293EAA21FF3EFFC
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX4242
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 5812
+)
+
+2016-08-29T14:14:00+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000016
+            [x_amount] => 280
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Tony
+            [x_last_name] => Hubspire
+            [x_company] => 
+            [x_address] => 3rd Street
+            [x_city] => Denver
+            [x_state] => Colorado
+            [x_zip] => 80217
+            [x_country] => US
+            [x_phone] => 9517538462
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 122.174.220.71
+            [x_customer_tax_id] => 
+            [x_email] => tony+test@hubspire.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Tony
+            [x_ship_to_last_name] => Hubspire
+            [x_ship_to_company] => 
+            [x_ship_to_address] => 3rd Street
+            [x_ship_to_city] => Denver
+            [x_ship_to_state] => Colorado
+            [x_ship_to_zip] => 80217
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000016
+            [description] => 
+            [amount] => 280.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 
+            [md5_hash] => D6A8DB4390F7BEFB95189E35AFD9871C
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX4242
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 11861
+)
+
+2016-08-30T07:05:11+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000017
+            [x_amount] => 700
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => a
+            [x_last_name] => kj
+            [x_company] => 
+            [x_address] => 38,winding brook
+            [x_city] => matawan
+            [x_state] => Tennessee
+            [x_zip] => 37725
+            [x_country] => US
+            [x_phone] => 7678
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 106.77.164.217
+            [x_customer_tax_id] => 
+            [x_email] => ajajyothi@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => a
+            [x_ship_to_last_name] => kj
+            [x_ship_to_company] => 
+            [x_ship_to_address] => 38,winding brook
+            [x_ship_to_city] => matawan
+            [x_ship_to_state] => Tennessee
+            [x_ship_to_zip] => 37725
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000017
+            [description] => 
+            [amount] => 700.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 
+            [md5_hash] => 1CC60EF6138C17F866A68E54815D41BC
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX0005
+            [card_type] => American Express
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 31042
+)
+
+2016-08-30T13:03:34+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000018
+            [x_amount] => 280
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Lisa
+            [x_last_name] => Valdes
+            [x_company] => 
+            [x_address] => 501 East Union Avenue
+            [x_city] => Bound Brook
+            [x_state] => New Jersey
+            [x_zip] => 08805
+            [x_country] => US
+            [x_phone] => 9084322388
+            [x_fax] => 9084322388
+            [x_cust_id] => 
+            [x_customer_ip] => 65.202.180.126
+            [x_customer_tax_id] => 
+            [x_email] => lisavaldes89@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Lisa
+            [x_ship_to_last_name] => Valdes
+            [x_ship_to_company] => 
+            [x_ship_to_address] => 501 East Union Avenue
+            [x_ship_to_city] => Bound Brook
+            [x_ship_to_state] => New Jersey
+            [x_ship_to_zip] => 08805
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000018
+            [description] => 
+            [amount] => 280.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 
+            [md5_hash] => D6A8DB4390F7BEFB95189E35AFD9871C
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 44487
+)
+
+2016-09-07T16:44:39+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000019
+            [x_amount] => 298
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Thomas
+            [x_last_name] => abraham
+            [x_company] => 
+            [x_address] => 30 Winding Brook Dr
+            [x_city] => Matawan
+            [x_state] => New Jersey
+            [x_zip] => 07747
+            [x_country] => US
+            [x_phone] => 6462344550
+            [x_fax] => 6462344550
+            [x_cust_id] => 
+            [x_customer_ip] => 100.8.151.58
+            [x_customer_tax_id] => 
+            [x_email] => thomas2483@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Thomas
+            [x_ship_to_last_name] => abraham
+            [x_ship_to_company] => 
+            [x_ship_to_address] => 30 Winding Brook Dr
+            [x_ship_to_city] => Matawan
+            [x_ship_to_state] => New Jersey
+            [x_ship_to_zip] => 07747
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000019
+            [description] => 
+            [amount] => 298.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 
+            [md5_hash] => 4447A690C194A21FB293895A20B7229A
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX4242
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 19047
+)
+
+2016-09-07T18:16:01+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000020
+            [x_amount] => 298
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Suresh
+            [x_last_name] => Janardhan
+            [x_company] => HubSpire
+            [x_address] => test address
+            [x_city] => Jersey City
+            [x_state] => New Jersey
+            [x_zip] => 07303
+            [x_country] => US
+            [x_phone] => 1231231234
+            [x_fax] => 
+            [x_cust_id] => 9
+            [x_customer_ip] => 122.174.197.212
+            [x_customer_tax_id] => 
+            [x_email] => suresh@hubspire.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Suresh
+            [x_ship_to_last_name] => Janardhan
+            [x_ship_to_company] => HubSpire
+            [x_ship_to_address] => test address
+            [x_ship_to_city] => Jersey City
+            [x_ship_to_state] => New Jersey
+            [x_ship_to_zip] => 07303
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000020
+            [description] => 
+            [amount] => 298.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 9
+            [md5_hash] => 4447A690C194A21FB293895A20B7229A
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 7390
+)
+
+2016-09-08T04:58:33+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000021
+            [x_amount] => 298
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Tony
+            [x_last_name] => Hubspire
+            [x_company] => 
+            [x_address] => 3rd Street
+            [x_city] => Denver
+            [x_state] => Colorado
+            [x_zip] => 80217
+            [x_country] => US
+            [x_phone] => 852419630
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 122.174.73.176
+            [x_customer_tax_id] => 
+            [x_email] => tony@hubspire.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Tony
+            [x_ship_to_last_name] => Hubspire
+            [x_ship_to_company] => 
+            [x_ship_to_address] => 3rd Street
+            [x_ship_to_city] => Denver
+            [x_ship_to_state] => Colorado
+            [x_ship_to_zip] => 80217
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000021
+            [description] => 
+            [amount] => 298.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 
+            [md5_hash] => 4447A690C194A21FB293895A20B7229A
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX4242
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 2055
+)
+
+2016-09-08T05:41:11+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000022
+            [x_amount] => 400
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Sino
+            [x_last_name] => John
+            [x_company] => 
+            [x_address] => Pennington Ave
+            [x_city] => Denver
+            [x_state] => Colorado
+            [x_zip] => 80217
+            [x_country] => US
+            [x_phone] => 9995555807
+            [x_fax] => 
+            [x_cust_id] => 
+            [x_customer_ip] => 122.174.73.176
+            [x_customer_tax_id] => 
+            [x_email] => sino@hubspire.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Sino
+            [x_ship_to_last_name] => John
+            [x_ship_to_company] => 
+            [x_ship_to_address] => Pennington Ave
+            [x_ship_to_city] => Denver
+            [x_ship_to_state] => Colorado
+            [x_ship_to_zip] => 80217
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000022
+            [description] => 
+            [amount] => 400.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 
+            [md5_hash] => 68C7E8653F10FB772133682D7FEE8390
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX4242
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 19201
+)
+
+2016-09-08T10:51:54+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000023
+            [x_amount] => 280
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Test
+            [x_last_name] => TEST
+            [x_company] => 
+            [x_address] => test
+            [x_city] => test
+            [x_state] => Alabama
+            [x_zip] => 123123
+            [x_country] => US
+            [x_phone] => 123123
+            [x_fax] => 
+            [x_cust_id] => 10
+            [x_customer_ip] => 103.240.211.135
+            [x_customer_tax_id] => 
+            [x_email] => jaiminpatel0418@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Test
+            [x_ship_to_last_name] => TEST
+            [x_ship_to_company] => 
+            [x_ship_to_address] => test
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 123123
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000023
+            [description] => 
+            [amount] => 280.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 10
+            [md5_hash] => D6A8DB4390F7BEFB95189E35AFD9871C
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 37523
+)
+
+2016-09-08T11:01:55+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000024
+            [x_amount] => 280
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Test
+            [x_last_name] => TEST
+            [x_company] => 
+            [x_address] => test
+            [x_city] => test
+            [x_state] => Alabama
+            [x_zip] => 123123
+            [x_country] => US
+            [x_phone] => 123123
+            [x_fax] => 
+            [x_cust_id] => 10
+            [x_customer_ip] => 103.240.211.135
+            [x_customer_tax_id] => 
+            [x_email] => jaiminpatel0418@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Test
+            [x_ship_to_last_name] => TEST
+            [x_ship_to_company] => 
+            [x_ship_to_address] => test
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 123123
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000024
+            [description] => 
+            [amount] => 280.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 10
+            [md5_hash] => D6A8DB4390F7BEFB95189E35AFD9871C
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 37520
+)
+
+2016-09-08T11:06:03+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000025
+            [x_amount] => 280
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Test
+            [x_last_name] => TEST
+            [x_company] => 
+            [x_address] => test
+            [x_city] => test
+            [x_state] => Alabama
+            [x_zip] => 123123
+            [x_country] => US
+            [x_phone] => 123123
+            [x_fax] => 
+            [x_cust_id] => 10
+            [x_customer_ip] => 103.240.211.135
+            [x_customer_tax_id] => 
+            [x_email] => jaiminpatel0418@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Test
+            [x_ship_to_last_name] => TEST
+            [x_ship_to_company] => 
+            [x_ship_to_address] => test
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 123123
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000025
+            [description] => 
+            [amount] => 280.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 10
+            [md5_hash] => D6A8DB4390F7BEFB95189E35AFD9871C
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 46648
+)
+
+2016-09-08T11:21:20+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000026
+            [x_amount] => 250
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Test
+            [x_last_name] => TEST
+            [x_company] => 
+            [x_address] => test
+            [x_city] => test
+            [x_state] => Alabama
+            [x_zip] => 123123
+            [x_country] => US
+            [x_phone] => 123123
+            [x_fax] => 
+            [x_cust_id] => 10
+            [x_customer_ip] => 103.240.211.135
+            [x_customer_tax_id] => 
+            [x_email] => jaiminpatel0418@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Test
+            [x_ship_to_last_name] => TEST
+            [x_ship_to_company] => 
+            [x_ship_to_address] => test
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 123123
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000026
+            [description] => 
+            [amount] => 250.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 10
+            [md5_hash] => C1AB4AA2D525DCC0017C49D91F83D435
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 3962
+)
+
+2016-09-08T11:34:37+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000027
+            [x_amount] => 250
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Test
+            [x_last_name] => TEST
+            [x_company] => 
+            [x_address] => test
+            [x_city] => test
+            [x_state] => Alabama
+            [x_zip] => 123123
+            [x_country] => US
+            [x_phone] => 123123
+            [x_fax] => 
+            [x_cust_id] => 10
+            [x_customer_ip] => 103.240.211.135
+            [x_customer_tax_id] => 
+            [x_email] => jaiminpatel0418@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Test
+            [x_ship_to_last_name] => TEST
+            [x_ship_to_company] => 
+            [x_ship_to_address] => test
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 123123
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000027
+            [description] => 
+            [amount] => 250.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 10
+            [md5_hash] => C1AB4AA2D525DCC0017C49D91F83D435
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 8945
+)
+
+2016-09-08T11:41:16+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000028
+            [x_amount] => 250
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Test
+            [x_last_name] => TEST
+            [x_company] => 
+            [x_address] => test
+            [x_city] => test
+            [x_state] => Alabama
+            [x_zip] => 123123
+            [x_country] => US
+            [x_phone] => 123123
+            [x_fax] => 
+            [x_cust_id] => 10
+            [x_customer_ip] => 103.240.211.135
+            [x_customer_tax_id] => 
+            [x_email] => jaiminpatel0418@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Test
+            [x_ship_to_last_name] => TEST
+            [x_ship_to_company] => 
+            [x_ship_to_address] => test
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 123123
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000028
+            [description] => 
+            [amount] => 250.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 10
+            [md5_hash] => C1AB4AA2D525DCC0017C49D91F83D435
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 11726
+)
+
+2016-09-08T11:45:59+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000029
+            [x_amount] => 250
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Test
+            [x_last_name] => TEST
+            [x_company] => 
+            [x_address] => test
+            [x_city] => test
+            [x_state] => Alabama
+            [x_zip] => 123123
+            [x_country] => US
+            [x_phone] => 123123
+            [x_fax] => 
+            [x_cust_id] => 10
+            [x_customer_ip] => 103.240.211.135
+            [x_customer_tax_id] => 
+            [x_email] => jaiminpatel0418@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Test
+            [x_ship_to_last_name] => TEST
+            [x_ship_to_company] => 
+            [x_ship_to_address] => test
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 123123
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000029
+            [description] => 
+            [amount] => 250.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 10
+            [md5_hash] => C1AB4AA2D525DCC0017C49D91F83D435
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 13619
+)
+
+2016-09-08T12:02:37+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000030
+            [x_amount] => 250
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Test
+            [x_last_name] => TEST
+            [x_company] => 
+            [x_address] => test
+            [x_city] => test
+            [x_state] => Alabama
+            [x_zip] => 123123
+            [x_country] => US
+            [x_phone] => 123123
+            [x_fax] => 
+            [x_cust_id] => 10
+            [x_customer_ip] => 103.240.211.135
+            [x_customer_tax_id] => 
+            [x_email] => jaiminpatel0418@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Test
+            [x_ship_to_last_name] => TEST
+            [x_ship_to_company] => 
+            [x_ship_to_address] => test
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 123123
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000030
+            [description] => 
+            [amount] => 250.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 10
+            [md5_hash] => C1AB4AA2D525DCC0017C49D91F83D435
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 18638
+)
+
+2016-09-08T12:27:09+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000031
+            [x_amount] => 250
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Test
+            [x_last_name] => TEST
+            [x_company] => 
+            [x_address] => test
+            [x_city] => test
+            [x_state] => Alabama
+            [x_zip] => 123123
+            [x_country] => US
+            [x_phone] => 123123
+            [x_fax] => 
+            [x_cust_id] => 10
+            [x_customer_ip] => 103.240.211.135
+            [x_customer_tax_id] => 
+            [x_email] => jaiminpatel0418@gmail.com
+            [x_email_customer] => 1
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Test
+            [x_ship_to_last_name] => TEST
+            [x_ship_to_company] => 
+            [x_ship_to_address] => test
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 123123
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000031
+            [description] => 
+            [amount] => 250.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 10
+            [md5_hash] => C1AB4AA2D525DCC0017C49D91F83D435
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 31410
+)
+
+2016-09-08T12:36:08+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000032
+            [x_amount] => 250
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Test
+            [x_last_name] => TEST
+            [x_company] => 
+            [x_address] => test
+            [x_city] => test
+            [x_state] => Alabama
+            [x_zip] => 123123
+            [x_country] => US
+            [x_phone] => 123123
+            [x_fax] => 
+            [x_cust_id] => 10
+            [x_customer_ip] => 103.240.211.135
+            [x_customer_tax_id] => 
+            [x_email] => jaiminpatel0418@gmail.com
+            [x_email_customer] => 0
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Test
+            [x_ship_to_last_name] => TEST
+            [x_ship_to_company] => 
+            [x_ship_to_address] => test
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 123123
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000032
+            [description] => 
+            [amount] => 250.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 10
+            [md5_hash] => C1AB4AA2D525DCC0017C49D91F83D435
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 36094
+)
+
+2016-09-08T12:38:58+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000033
+            [x_amount] => 250
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Test
+            [x_last_name] => TEST
+            [x_company] => 
+            [x_address] => test
+            [x_city] => test
+            [x_state] => Alabama
+            [x_zip] => 123123
+            [x_country] => US
+            [x_phone] => 123123
+            [x_fax] => 
+            [x_cust_id] => 10
+            [x_customer_ip] => 103.240.211.135
+            [x_customer_tax_id] => 
+            [x_email] => jaiminpatel0418@gmail.com
+            [x_email_customer] => 0
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Test
+            [x_ship_to_last_name] => TEST
+            [x_ship_to_company] => 
+            [x_ship_to_address] => test
+            [x_ship_to_city] => test
+            [x_ship_to_state] => Alabama
+            [x_ship_to_zip] => 123123
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000033
+            [description] => 
+            [amount] => 250.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 10
+            [md5_hash] => C1AB4AA2D525DCC0017C49D91F83D435
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 36096
+)
+
+2016-09-08T14:21:30+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000034
+            [x_amount] => 418
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Lisa
+            [x_last_name] => Valdes
+            [x_company] => 
+            [x_address] => 512 7th Ave
+            [x_city] => New York
+            [x_state] => New York
+            [x_zip] => 10018
+            [x_country] => US
+            [x_phone] => 2125960862
+            [x_fax] => 2125960862
+            [x_cust_id] => 
+            [x_customer_ip] => 65.202.180.126
+            [x_customer_tax_id] => 
+            [x_email] => lisa@thelevygroupinc.com
+            [x_email_customer] => 0
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Lisa
+            [x_ship_to_last_name] => Valdes
+            [x_ship_to_company] => 
+            [x_ship_to_address] => 512 7th Ave
+            [x_ship_to_city] => New York
+            [x_ship_to_state] => New York
+            [x_ship_to_zip] => 10018
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000034
+            [description] => 
+            [amount] => 418.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 
+            [md5_hash] => 273785736AEF1D1D9BA9CA84C8892270
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 20709
+)
+
+2016-09-08T14:51:14+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_ONLY
+            [x_method] => CC
+            [x_invoice_num] => HFX1100000035
+            [x_amount] => 250
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Lisa
+            [x_last_name] => Valdes
+            [x_company] => 
+            [x_address] => 512 7th Ave
+            [x_city] => New York
+            [x_state] => New York
+            [x_zip] => 10018
+            [x_country] => US
+            [x_phone] => 2125960862
+            [x_fax] => 2125960862
+            [x_cust_id] => 12
+            [x_customer_ip] => 65.202.180.126
+            [x_customer_tax_id] => 
+            [x_email] => lisa@thelevygroupinc.com
+            [x_email_customer] => 0
+            [x_merchant_email] => lisa@thelevygroupinc.com
+            [x_ship_to_first_name] => Lisa
+            [x_ship_to_last_name] => Valdes
+            [x_ship_to_company] => 
+            [x_ship_to_address] => 512 7th Ave
+            [x_ship_to_city] => New York
+            [x_ship_to_state] => New York
+            [x_ship_to_zip] => 10018
+            [x_ship_to_country] => US
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 0
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => HFX1100000035
+            [description] => 
+            [amount] => 250.00
+            [method] => CC
+            [transaction_type] => auth_only
+            [customer_id] => 12
+            [md5_hash] => C1AB4AA2D525DCC0017C49D91F83D435
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX1111
+            [card_type] => Visa
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 32791
+)
+
